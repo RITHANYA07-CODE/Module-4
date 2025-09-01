@@ -11,9 +11,22 @@ To write a Python program that calculates the **area of a circle** based on the 
 4. **Execute the program**: Create an object of the class and call the method with the radius value.
 
 ## 🧾 Program
+```
+import math
 
-Add code here
-
+class cse:
+    def __init__(self, radius):
+        self.radius = radius
+        
+    def mech(self):
+        return math.pi * (self.radius**2)
+        
+r = float(input())
+c = cse(r)
+print(f"Area of circle: {c.mech():.2f}")
+```
 ## Output
+<img width="694" height="198" alt="image" src="https://github.com/user-attachments/assets/4f9399d2-7f2b-46d2-8730-d2577f108234" />
 
 ## Result
+The program successfully calculates the area of a circle based on the radius provided by the user.
